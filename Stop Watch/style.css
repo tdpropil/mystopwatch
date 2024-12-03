@@ -1,0 +1,123 @@
+/* Global Styles */
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.card-body{
+    height:230px;
+    width: 600px;
+    background-color: #000000;
+}
+/* Display Styling */
+@font-face {
+    font-family: 'Digital-7';
+    src: url('digital-7(mono).ttf');
+}
+
+.display {
+    font-size: 5rem; /* Adjusted font size */
+    font-weight: bold;
+    font-family: 'Digital-7', monospace;
+    src: url('digital-7(mono).ttf');
+    color: #19718e;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h5{
+   font-family: 'Digital-7', monospace;
+   src: url('digital-7(mono).ttf');
+   font-size: 3rem;
+   color: rgb(195, 204, 15);
+}
+
+/* Button Styling */
+.buttons {
+    margin-bottom: 10px;
+}
+
+.buttons .btn {
+    margin: 5px;
+    font-size: 1.2rem;
+    font-family: 'Digital-7', monospace;
+    src: url('digital-7(mono).ttf');
+}
+/* Button Styling */
+.buttons .btn {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.buttons .btn-primary {
+    background-color: #007bff; /* Original color */
+}
+
+.buttons .btn-primary:hover {
+    background-color: #0056b3; /* Hover color */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.buttons .btn-danger {
+    background-color: #dc3545; /* Original color */
+}
+
+.buttons .btn-danger:hover {
+    background-color: #c82333; /* Hover color */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.buttons .btn-warning {
+    background-color: #ffc107; /* Original color */
+}
+
+.buttons .btn-warning:hover {
+    background-color: #e0a800; /* Hover color */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+
+/* Lap Section Styling */
+
+
+#lapSection {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.table {
+    background-color: rgba(25, 113, 142, 0.8);
+    border-radius: 10px;
+    color: white;
+}
+
+.table th, .table td {
+    font-family: 'Digital-7', monospace;
+    font-size: 1.2rem;
+}
+
+
+/* Lap Card Styling */
+.lap-card {
+    color: white;
+    font-family: 'Digital-7',monospace;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lap-card h6, .lap-card p {
+    margin: 0;
+}
